@@ -1,0 +1,35 @@
+.section {
+    width: 100%;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 350px 2.2fr;
+    gap: 2rem;
+    max-width: 1200px;
+    height: 36rem;
+    margin: 1rem auto 6rem;
+    padding: 2rem;
+    background-color: var(--clr-contrast1);
+    box-shadow: 0 0 0.5rem #eaebee;
+    border-radius: 10px;
+}
+
+/*  */
+@media (max-width: 900px) {
+    .card {
+        grid-template-columns: 300px 2.2fr;
+        height: 42rem;
+    }
+     
+}
+
+@media (max-width: 800px) {
+    .card {
+        grid-template-columns: 1fr;
+       ;
+    }
+     
+}

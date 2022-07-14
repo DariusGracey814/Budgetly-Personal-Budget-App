@@ -1,0 +1,33 @@
+@media (max-width: 475px) {
+    .btn-size {
+        padding: 0.35rem;
+        font-size: 0.8rem;
+    }
+
+    .name {
+        font-size: 1.2rem;
+    }
+
+    .firstNum {
+        font-size: 1.12rem;
+    }
+
+}
+
+@media (max-width: 343px) {
+    .budget-content {
+        flex-direction: column;
+    }
+
+    .name {
+        font-size: 1.2rem;
+        align-self: center;
+        margin-bottom: 0.3rem;
+    }
+
+    .firstNum {
+        font-size: 1.12rem;
+        align-self: center;
+    }
+}
+

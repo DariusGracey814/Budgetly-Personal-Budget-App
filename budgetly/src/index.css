@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+    /* Font */
+    --ff-Rubik-: 'Rubik', sans-serif;
+
+    /* Colors */
+    --clr-blueJeans: #0566ff;
+    --clr-contrast1: #14213D;
+    --clr-light: #ededf0;
+}
+
+html {
+  
+}
+
+body {
+  height: 100vh;
+  font-weight: 400;
+  background-color: var(--clr-light);
+  font-family: var(--ff-Rubik-);
+}
+
+.focus {
+  transition: all 0.2s ease;
+}
+
+.focus:focus {
+  box-shadow: 0 0 0.1rem var(--clr-contrast1) !important;
+  border: 1px solid var(--clr-blueJeans);
+  transform: scale(1.03);
+}
+
+.budgets {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow: auto;
+}
+
+.btn-margin {
+  margin-top: 2rem;
+}
+
+.rounded {
+  border-radius: 0.5rem;
+}
+
+.pop {
+  box-shadow: 0 0 0.3rem #d1d2d4;
+}
+
+.between {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.modal-no--scroll {
+  max-height: 632px;
+  overflow-y: scroll;
+}
+
+
+@media (max-width: 500px) {
+  .viewHeading {
+    font-size: 1.15rem;
+  }
+
+  .viewName {
+    font-size: 1.05rem;
+  }
+
+  .viewAmount {
+    font-size: 1.05rem;
+  }
+
+  .view_delete_budget {
+    padding: 0.35rem;
+    font-size: 0.8rem;
+  }
+
+  .view_delete_expense {
+    padding: 0.2rem 0.6rem;
+    font-size: 1rem;
+  }
+}

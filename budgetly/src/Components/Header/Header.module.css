@@ -1,0 +1,75 @@
+/* ------- MAIN HEADER -------- */
+.header {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+}
+
+.header-content {
+    display: flex;
+}
+
+
+.logo {
+    width: 35px;
+    height: 35px;
+}
+
+.logo-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: var(--clr-blueJeans);
+}
+
+.logo-text {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@media (max-width: 670px) {
+    .header {
+        padding: 1.5rem 1rem; 
+        display: flex;
+        align-content: center;
+    }
+
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-wrapper {
+        margin: 0 auto;
+    }
+
+    .logo-heading {
+        font-size: 1.7rem;
+    }
+    
+    .logo-text {
+        font-size: 0.75rem;
+        text-align: center;
+        margin-top: 0.2rem;
+    }
+    
+    .header {
+        flex-direction: column;
+        max-width: 1250px;
+        margin: 0 auto;
+        padding: 1.5rem 2rem;
+    }
+
+    .buttons {
+       margin: 1rem auto 0;
+    }
+   
+}
+
+@media (max-width: 343px) {
+    .btn-small {
+        padding: 0.6rem 0.9rem; 
+        font-size: 0.8rem;
+    }
+}
