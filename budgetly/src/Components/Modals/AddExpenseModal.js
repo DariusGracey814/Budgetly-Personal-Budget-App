@@ -75,4 +75,4 @@ function AddExpenseModal({ show, handlerClose, defaultBudgetID}) {
         );
 }
 
-export default AddExpenseModal;
+export default React.memo(AddExpenseModal);

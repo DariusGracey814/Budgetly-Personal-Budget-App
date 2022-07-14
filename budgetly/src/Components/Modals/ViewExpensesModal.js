@@ -50,4 +50,4 @@ function ViewExpensesModal({ budgetID, handlerClose }) {
 };
 
 
-export default ViewExpensesModal;
+export default React.memo(ViewExpensesModal);

@@ -62,4 +62,4 @@ function AddBudgetModal({ show, handlerClose, defaultBudgetID }) {
         );
 }
 
-export default AddBudgetModal;
+export default React.memo(AddBudgetModal);
