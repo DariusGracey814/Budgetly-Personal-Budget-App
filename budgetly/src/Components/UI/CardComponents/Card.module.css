@@ -28,8 +28,10 @@
 
 @media (max-width: 800px) {
     .card {
-        grid-template-columns: 1fr;
-       ;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        
     }
      
 }
