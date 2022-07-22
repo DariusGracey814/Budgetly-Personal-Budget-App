@@ -8,8 +8,8 @@
 
 
 
+![addbudgetly](https://user-images.githubusercontent.com/83884600/180342588-59e1e6bb-cdca-4c2b-8363-255f929efb55.png)
 
-![addbudget](https://user-images.githubusercontent.com/83884600/180342201-e0da4864-a9d8-48f8-8b65-85142f907b67.png)
 
 
 
