@@ -29,7 +29,8 @@
 @media (max-width: 800px) {
     .card {
         grid-template-columns: 1fr;
-        height: auto;
+        height: 100vh;
+: auto;
     }
      
 }

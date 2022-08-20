@@ -45,9 +45,7 @@ function AddBudgetModal({ show, handlerClose, defaultBudgetID }) {
                             <Form.Label for="name">Budget Name</Form.Label>
                             <Form.Control type="text" name="budgetName" id="name" ref={description} />
                         </Form.Group>
-
-                        <Form.Group className="mt-3 . -
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ">
+                        <Form.Group className="mt-3">
                             <Form.Label for="amount">Budget Maximum Amount</Form.Label>
                             <Form.Control type="number" name="amount" id="amount" min={0} step={0.01} ref={amount} />
                         </Form.Group>
