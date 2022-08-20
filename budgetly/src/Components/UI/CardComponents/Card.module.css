@@ -30,7 +30,7 @@
     .card {
         grid-template-columns: 1fr;
         height: 100vh;
-: auto;
+	overflow: auto;
     }
      
 }
